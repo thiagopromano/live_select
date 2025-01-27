@@ -120,9 +120,9 @@ export default {
             this.attachDomEventHandlers()
         },
         reconnected() {
-            if (this.selection && this.selection.length > 0) {
-                this.pushEventTo(this.el.id, "selection_recovery", this.selection)
-            }
+            // if (this.selection && this.selection.length > 0) {
+            // this.pushEventTo(this.el.id, "selection_recovery", this.selection)
+            // }
         }
     }
 }
